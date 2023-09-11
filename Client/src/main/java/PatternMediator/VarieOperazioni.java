@@ -179,12 +179,14 @@ public class VarieOperazioni
             String mes="Prenotazione avvenuta con successo";
             mostraMessaggio(mes);
             return true;
-        } else
+        }
+        else
         {
             String mes="Prenotazione non avvenuta con successo";
             mostraMessaggio(mes);
         }
         return false;
+
     }
     public void mostraMessaggio(String mes)
     {

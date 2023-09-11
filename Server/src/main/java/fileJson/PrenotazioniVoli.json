@@ -50,6 +50,57 @@
       },
       "memoizedSize": -1,
       "memoizedHashCode": 0
+    },
+    {
+      "volo_": {
+        "partenza_": "Lamezia",
+        "destinazione_": "Roma",
+        "data_": {
+          "seconds_": 1695628800,
+          "nanos_": 0,
+          "memoizedIsInitialized": -1,
+          "unknownFields": {
+            "fields": {}
+          },
+          "memoizedSize": -1,
+          "memoizedHashCode": 1449536422
+        },
+        "memoizedIsInitialized": -1,
+        "unknownFields": {
+          "fields": {}
+        },
+        "memoizedSize": -1,
+        "memoizedHashCode": -1248923127
+      },
+      "cliente_": {
+        "nome_": "Luca",
+        "cognome_": "Rossi",
+        "codiceFiscale_": "aa",
+        "indirizzo_": "via bo",
+        "dataDiNascita_": {
+          "seconds_": 990568800,
+          "nanos_": 0,
+          "memoizedIsInitialized": -1,
+          "unknownFields": {
+            "fields": {}
+          },
+          "memoizedSize": -1,
+          "memoizedHashCode": 0
+        },
+        "indirizzoEmail_": "luca@gmail.com",
+        "memoizedIsInitialized": -1,
+        "unknownFields": {
+          "fields": {}
+        },
+        "memoizedSize": -1,
+        "memoizedHashCode": 0
+      },
+      "memoizedIsInitialized": 1,
+      "unknownFields": {
+        "fields": {}
+      },
+      "memoizedSize": -1,
+      "memoizedHashCode": 0
     }
   ],
   "memoizedIsInitialized": 1,

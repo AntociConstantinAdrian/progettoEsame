@@ -21,7 +21,6 @@ public class Main
         JTextField partenzaText=new JTextField();
         JTextField destinazioneText=new JTextField();
         JTextField dataText=new JTextField();
-
         /*Uso un JPanel per aggiungere i bottoni*/
         JPanel panelButton=new JPanel();
         panelButton.setLayout(new FlowLayout(FlowLayout.CENTER));

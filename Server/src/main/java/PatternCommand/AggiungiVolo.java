@@ -55,7 +55,6 @@ public class AggiungiVolo implements Mediator
         String partenzat=partenzaText.getText().trim();
         String destinazionet=destinazioneText.getText().trim();
         String datat=dataText.getText().trim();
-        String postit;
         if(partenzat!=null && destinazionet!=null &datat!=null)
         {
             return true;
