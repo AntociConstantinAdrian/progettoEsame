@@ -1,0 +1,81 @@
+{
+  "dati_": [
+    {
+      "cliente_": {
+        "nome_": "Constantin Adrian",
+        "cognome_": "Antoci",
+        "codiceFiscale_": "ntccst01e23z129p",
+        "indirizzo_": "via milano",
+        "dataDiNascita_": {
+          "seconds_": 990568800,
+          "nanos_": 0,
+          "memoizedIsInitialized": -1,
+          "unknownFields": {
+            "fields": {}
+          },
+          "memoizedSize": -1,
+          "memoizedHashCode": 0
+        },
+        "indirizzoEmail_": "antociconstantinadrian@yahoo.com",
+        "memoizedIsInitialized": 1,
+        "unknownFields": {
+          "fields": {}
+        },
+        "memoizedSize": -1,
+        "memoizedHashCode": 58354001
+      },
+      "codiceSegreto_": 214174,
+      "estratti_": {
+        "estrattoConto_": [
+          {
+            "volo_": {
+              "partenza_": "Lamezia",
+              "destinazione_": "Roma",
+              "data_": {
+                "seconds_": 1695369600,
+                "nanos_": 0,
+                "memoizedIsInitialized": -1,
+                "unknownFields": {
+                  "fields": {}
+                },
+                "memoizedSize": -1,
+                "memoizedHashCode": 0
+              },
+              "memoizedIsInitialized": 1,
+              "unknownFields": {
+                "fields": {}
+              },
+              "memoizedSize": -1,
+              "memoizedHashCode": 0
+            },
+            "puntiAccumulati_": 32,
+            "memoizedIsInitialized": 1,
+            "unknownFields": {
+              "fields": {}
+            },
+            "memoizedSize": -1,
+            "memoizedHashCode": 0
+          }
+        ],
+        "memoizedIsInitialized": 1,
+        "unknownFields": {
+          "fields": {}
+        },
+        "memoizedSize": -1,
+        "memoizedHashCode": 0
+      },
+      "memoizedIsInitialized": 1,
+      "unknownFields": {
+        "fields": {}
+      },
+      "memoizedSize": -1,
+      "memoizedHashCode": 0
+    }
+  ],
+  "memoizedIsInitialized": 1,
+  "unknownFields": {
+    "fields": {}
+  },
+  "memoizedSize": -1,
+  "memoizedHashCode": 0
+}

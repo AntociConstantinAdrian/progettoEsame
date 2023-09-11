@@ -1,0 +1,61 @@
+{
+  "prenotazione_": [
+    {
+      "volo_": {
+        "partenza_": "Lamezia",
+        "destinazione_": "Roma",
+        "data_": {
+          "seconds_": 1695628800,
+          "nanos_": 0,
+          "memoizedIsInitialized": -1,
+          "unknownFields": {
+            "fields": {}
+          },
+          "memoizedSize": -1,
+          "memoizedHashCode": -1560552441
+        },
+        "memoizedIsInitialized": -1,
+        "unknownFields": {
+          "fields": {}
+        },
+        "memoizedSize": -1,
+        "memoizedHashCode": -1726077191
+      },
+      "cliente_": {
+        "nome_": "Constantin Adrian",
+        "cognome_": "Antoci",
+        "codiceFiscale_": "ntccst01e23z129p",
+        "indirizzo_": "via milano",
+        "dataDiNascita_": {
+          "seconds_": 990568800,
+          "nanos_": 0,
+          "memoizedIsInitialized": -1,
+          "unknownFields": {
+            "fields": {}
+          },
+          "memoizedSize": -1,
+          "memoizedHashCode": 0
+        },
+        "indirizzoEmail_": "antociconstantinadrian@yahoo.com",
+        "memoizedIsInitialized": -1,
+        "unknownFields": {
+          "fields": {}
+        },
+        "memoizedSize": -1,
+        "memoizedHashCode": 0
+      },
+      "memoizedIsInitialized": 1,
+      "unknownFields": {
+        "fields": {}
+      },
+      "memoizedSize": -1,
+      "memoizedHashCode": 0
+    }
+  ],
+  "memoizedIsInitialized": 1,
+  "unknownFields": {
+    "fields": {}
+  },
+  "memoizedSize": -1,
+  "memoizedHashCode": 0
+}

@@ -1,0 +1,84 @@
+syntax = "proto3";
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/wrappers.proto";
+import "google/protobuf/any.proto";
+
+message Cliente {
+  string nome = 1;
+  string cognome = 2;
+  string codiceFiscale = 3;
+  string indirizzo = 4;
+  google.protobuf.Timestamp dataDiNascita = 5;
+  string indirizzoEmail = 6;
+}
+message Volo
+{
+  string partenza=1;
+  string destinazione=2;
+  google.protobuf.Timestamp data=3;
+}
+message Voli
+{
+  repeated Volo voli=1;
+}
+message Prenotazione //Funge da Biglietto
+{
+  Volo volo=1;
+  Cliente cliente=2;
+}
+message Prenotazioni
+{
+  repeated Prenotazione prenotazione=1;
+}
+message Esito
+{
+  google.protobuf.BoolValue esito=1;
+}
+message EstrattoConto {
+  Volo volo = 1;
+  int32 puntiAccumulati = 2;
+}
+message Estratti
+{
+  repeated EstrattoConto estrattoConto=1;
+}
+message RichiestaModificaVolo
+{
+  google.protobuf.Timestamp dataMod=1;
+  Volo volo=2;
+  Cliente cliente=3;
+}
+message Informazione
+{
+  string mes=1;
+}
+message DatiPunti
+{
+  Volo volo=1;
+  Cliente cliente=2;
+  int32 codiceSegreto=3;
+}
+message DatiClienteFedelta
+{
+  Cliente cliente=1;
+  int32 codiceSegreto=2;
+  Estratti estratti=3;
+}
+message DatiClientiFedelta
+{
+  repeated DatiClienteFedelta dati=1;
+}
+message Empty {}
+service GestionePrenotazioniVoli
+{
+  //Devo vedere i voli per prima cosa
+  rpc subscribe(Cliente) returns (Informazione){}
+  rpc inviaNotifica(Cliente) returns (Informazione){}
+  rpc dammiTuttiVoli(Cliente) returns (Voli){};//FATTO
+  rpc dammiMieiVoli(Cliente) returns (Voli){};
+  rpc PrenotaVolo(Prenotazione) returns (Esito){};//FATTO
+  rpc ModificaPrenotazione(RichiestaModificaVolo) returns (Esito){};//FATTO
+  rpc IscrizioneProgrammaFedelta(Cliente) returns (Informazione) {};
+  rpc AccumulaPuntiFedelta(DatiPunti) returns (Informazione) {};
+  rpc EstrattoContoFedelta(Cliente) returns (Estratti) {};
+}
